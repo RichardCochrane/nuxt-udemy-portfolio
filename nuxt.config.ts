@@ -6,6 +6,23 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-
-  modules: ['@nuxtjs/tailwindcss']
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  },
+  modules: [
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/color-mode',
+    '@nuxt/content'
+  ],
+  colorMode: {
+    classSuffix: ''
+  },
+  content: {
+    highlight: {
+        theme: {
+            default: 'everforest-light',
+            dark: 'min-dark'
+        }
+    }
+  }
 })

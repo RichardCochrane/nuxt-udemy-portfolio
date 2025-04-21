@@ -1,10 +1,7 @@
 <template>
-    <div>
-        This is about me!
-    </div>
-    <!-- <div>
-        <button @click="enableCustomLayout">Update Layout</button>
-    </div> -->
+    <article class="prose dark:prose-invert">
+        <ContentDoc path="/about" />
+    </article>
 </template>
 
 <script setup>
