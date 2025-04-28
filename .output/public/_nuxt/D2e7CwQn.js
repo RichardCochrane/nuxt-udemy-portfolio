@@ -1,0 +1,1 @@
+import{_ as o,c as r,o as n,l as s}from"./djsuzeVp.js";const t={};function c(e,a){return n(),r("strong",null,[s(e.$slots,"default")])}const _=Object.assign(o(t,[["render",c]]),{__name:"ProseStrong"});export{_ as default};

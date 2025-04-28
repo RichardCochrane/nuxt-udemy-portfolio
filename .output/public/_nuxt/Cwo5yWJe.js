@@ -1,0 +1,1 @@
+import{z as t,l as n}from"./djsuzeVp.js";const a=t({__name:"ProseCode",props:{code:{type:String,default:""},language:{type:String,default:null},filename:{type:String,default:null},highlights:{type:Array,default:()=>[]},meta:{type:String,default:null}},setup(l){return(e,r)=>n(e.$slots,"default")}}),s=Object.assign(a,{__name:"ProseCode"});export{s as default};
